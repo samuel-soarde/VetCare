@@ -11,8 +11,9 @@
 
 <body>
     <aside class="menu">
-        <h1 class="menu__titulo">VetCare Hospital</h1>
-        <nav class="menu__navegacao">
+        <h1 class="menu__title">VetCare Hospital</h1>
+        <span class="menu__linha"></span>
+        <nav class="menu__nav">
             <a href="#home" class="menu__link">Início</a>
             <a href="#especialidades" class="menu__link">Especialidades</a>
             <a href="#equipe" class="menu__link">Equipe Médica</a>
@@ -20,17 +21,79 @@
             <a href="#faq" class="menu__link">Dúvidas</a>
         </nav>
     </aside>
+
     <section id="home" class="section-clinica">
-        <article>
-            <h2>Cuidados Especializados e Amor ao Seu Pet</h2>
-            <p>O Hospital Veterinário VetCare oferece estrutura hospitalar completa 24 horas por dia.
-                Nossa equipe é composta por especialistas dedicados ao diagnóstico preciso e tratamento
-                humanizado para cães, gatos e animais silvestres.</p>
-        </article>
-        <div><img
-                src="https://plus.unsplash.com/premium_photo-1661962620229-614e281fe009?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
-                alt="Clínica veterinária cuidando de um cachorro."></div>
+        <div class="section-clinica__container">
+            <article class="section-clinica__content">
+                <h2 class="section-clinica__title">Cuidados Especializados e Amor ao Seu Pet</h2>
+                <span class="linha"></span>
+                <p class="section-clinica__text">O Hospital Veterinário VetCare oferece estrutura hospitalar completa 24
+                    horas por dia.
+                    Nossa equipe é composta por especialistas dedicados ao diagnóstico preciso e tratamento
+                    humanizado para cães, gatos e animais silvestres.</p>
+            </article>
+            <aside class="section-clinica__aside">
+                <div class="card-image">
+                    <img src="https://plus.unsplash.com/premium_photo-1661962620229-614e281fe009?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+                        alt="Clínica veterinária cuidando de um cachorro." class="card-image__img">
+                </div>
+            </aside>
+        </div>
     </section>
+
+    <section id="especialidades" class="section-clinica">
+        <div class="section-clinica__container section-clinica__container--column">
+            <article class="section-clinica__content">
+                <h2 class="section-clinica__title">Nossas Especialidades</h2>
+                <span class="linha"></span>
+            </article>
+            <div class="cards-content">
+                <div class="cards-content__espec">
+                    <h3 class="card__title">Cardiologia Veterinária</h3>
+                    <p class="card__text">Avaliação preventiva e exames ecocardiográficos avançados
+                        para garantir a saúde cardíaca do seu animal.</p>
+                </div>
+                <div class="cards-content__espec">
+                    <h3 class="card__title">Ortopedia e Traumatologia</h3>
+                    <p class="card__text">Cirurgias complexas e tratamento de fraturas com
+                        equipamentos de última geração.</p>
+                </div>
+                <div class="cards-content__espec">
+                    <h3 class="card__title">Dermatologia Especializada</h3>
+                    <p class="card__text">Diagnóstico preciso de alergias, infecções cutâneas e
+                        tratamentos terapêuticos modernos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="equipe" class="section-clinica">
+        <div class="section-clinica__container section-clinica__container--column">
+            <article class="section-clinica__content">
+                <h2 class="section-clinica__title">Corpo Clínico Responsável</h2>
+                <span class="linha"></span>
+            </article>
+            <div class="cards-content">
+                <div class="cards-content__equipe">
+                    <h3 class="card__title">Dra. Camila Rocha</h3>
+                    <p class="card__text">Avaliação preventiva e exames ecocardiográficos avançados
+                        para garantir a saúde cardíaca do seu animal.</p>
+                </div>
+                <div class="cards-content__equipe">
+                    <h3 class="card__title">Dr. Henrique Silva</h3>
+                    <p class="card__text">Cirurgias complexas e tratamento de fraturas com
+                        equipamentos de última geração.</p>
+                </div>
+                <div class="cards-content__equipe">
+                    <h3 class="card__title">Dra. Juliana Mendes</h3>
+                    <span></span>
+                    <p class="card__text">Diagnóstico preciso de alergias, infecções cutâneas e
+                        tratamentos terapêuticos modernos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
 
 </html>

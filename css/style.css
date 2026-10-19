@@ -9,23 +9,130 @@
     height: 100vh;
     background-color: var(--color-sidebar-bg);
     display: flex;
-    align-items: center;
     flex-direction: column;
-    gap: 15px;
-    padding-top: 10px;
+    padding: 30px 15px
 }
 
-.menu__titulo {
+.menu__title {
     color: var(--color-sidebar-text);
+    font-size: var(--font-size-base);
 }
 
-.menu__navegacao {
+.menu__linha {
+    height: 3px;
+    border-radius: 2px;
+    width: 100%;
+    background-color: var(--color-secondary);
+    margin-bottom: 15px;
+    margin-bottom: 35px;
+}
+
+.menu__nav {
     display: flex;
-    align-items: center;
     flex-direction: column;
     gap: 15px;
 }
 
 .menu__link {
     color: var(--color-sidebar-text);
+    font-size: var(--font-size-sm);
+    padding: 15px;
+    border-radius: 10px;
+    transition: var(--transition);
+    width: 13vw;
+}
+
+.menu__link:hover,
+.menu__link:focus {
+    background-color: var(--color-primary-hover);
+    font-size: var(--font-size-sm);
+    transform: translate(-2px);
+}
+
+.section-clinica {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-clinica__container {
+    width: 1500px;
+    display: flex;
+}   
+
+.section-clinica__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.section-clinica__title {
+    color: var(--color-text-title);
+    font-size: var(--font-size-lg);
+}
+
+.linha {
+    align-self: flex-start;
+    height: 3px;
+    border-radius: 2px;
+    width: 60px;
+    background-color: var(--color-secondary);
+    margin-bottom: 15px;
+}
+
+.section-clinica__text {
+    color: var(--color-text-body);
+    font-size: var(--font-size-sm);
+}
+
+.card-image__img {
+    max-width: 700px;
+    border-radius: 15px;
+}
+
+.section-clinica#especialidades {
+    background-color: var(--color-sidebar-text);
+}
+
+.section-clinica__container--column {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards-content__espec {
+    height: 17vh;
+    background-color: white;
+    width: 23vw;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: var(--shadow-card);
+}
+
+.card__title {
+    color: var(--color-secondary);
+    font-size: var(--font-size-sm);
+}
+
+.card__text {
+    color: var(--color-text-body);
+}
+
+.section-clinica#equipe {
+    background-color: var(--color-sidebar-text);
+}
+
+.cards-content__equipe {
+    height: 17vh;
+    background-color: white;
+    width: 23vw;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: var(--shadow-card);
 }
