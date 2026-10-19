@@ -178,3 +178,19 @@
 .section-clinica#faq .section-clinica__container {
     flex-direction: column;
 }
+
+.faq {
+    padding: 15px;
+    background-color: white;
+    margin: 15px 0;
+    box-shadow: var(--shadow-card);
+}
+
+.faq:hover {
+    box-shadow: var(--shadow-hover);
+}
+
+.faq__title {
+    color: var(--color-sidebar-bg);
+    font-weight: bolder;
+}
