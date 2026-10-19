@@ -84,7 +84,7 @@
 
 .section-clinica__text {
     color: var(--color-text-body);
-    font-size: var(--font-size-sm);
+    width: 90%;
 }
 
 .card-image__img {
@@ -145,4 +145,25 @@
 
 .card__crmv {
     color: var(--color-secondary);
+}
+
+.section-clinica#infraestrutura {
+    background-color: var(--color-sidebar-text);
+}
+
+.section-clinica#infraestrutura .section-clinica__container {
+    flex-direction: column;
+}
+
+.section-clinica__infra {
+    display: flex;
+    flex-direction: row;
+}
+
+.cards-infra {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    border-left: 5px solid var(--color-secondary);
+    width: 90%;
 }
