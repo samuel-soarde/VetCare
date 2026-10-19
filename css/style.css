@@ -112,7 +112,7 @@
     width: 23vw;
     border-radius: 15px;
     padding: 15px;
-    box-shadow: var(--shadow-card);
+    box-shadow: var(--shadow-hover);
 }
 
 .card__title {
@@ -129,10 +129,20 @@
 }
 
 .cards-content__equipe {
-    height: 17vh;
+    height: 50vh;
     background-color: white;
-    width: 23vw;
+    width: 25vw;
     border-radius: 15px;
     padding: 15px;
-    box-shadow: var(--shadow-card);
+    box-shadow: var(--shadow-hover);
+}
+
+.card__img {
+    max-width: 100%;
+    height: 35vh;
+    border-radius: 15px;
+}
+
+.card__crmv {
+    color: var(--color-secondary);
 }
