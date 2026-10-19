@@ -4,3 +4,11 @@
     padding: 0px;
     text-decoration: none;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin-left: 15vw;
+}

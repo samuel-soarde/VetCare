@@ -3,10 +3,12 @@
 @import url(./reset.css);
 
 .menu {
+    position: fixed;
+    left: 0;
     width: 15vw;
     height: 100vh;
-    display: flex;
     background-color: var(--color-sidebar-bg);
+    display: flex;
     align-items: center;
     flex-direction: column;
     gap: 15px;
@@ -15,6 +17,13 @@
 
 .menu__titulo {
     color: var(--color-sidebar-text);
+}
+
+.menu__navegacao {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .menu__link {
