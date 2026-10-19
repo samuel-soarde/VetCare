@@ -170,3 +170,11 @@
     margin-top: 15px;
     box-shadow: var(--shadow-card);
 }
+
+.section-clinica#faq {
+    background-color: var(--color-sidebar-text);
+}
+
+.section-clinica#faq .section-clinica__container {
+    flex-direction: column;
+}
