@@ -1,0 +1,128 @@
+@media (max-width: 600px) {
+    body {
+        margin-top: 15%;
+        margin-left: 0;
+    }
+
+    .menu {
+        padding: 0;
+        width: 100vw;
+        height: auto;
+        align-items: center;
+        top: 0;
+    }
+
+    .menu__title {
+        font-size: var(--font-size-base);
+    }
+
+    .menu__linha {
+        height: 3px;
+        border-radius: var(--radius-sm);
+        width: 100%;
+        background-color: var(--color-secondary);
+        margin-bottom: 2px;
+    }
+
+    .menu__nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 80%;
+        text-align: center;
+        gap: 0;
+    }
+
+    .menu__link {
+        font-size: var(--font-size-sm);
+        padding: 3px;
+        gap: 0px;
+        width: 150px;
+        height: 25px;
+        font-size: var(--font-size-sm);
+        margin: 3px;
+    }
+
+    .section-clinica {
+        flex-direction: column;
+    }
+
+    .section-clinica#home {
+        background-color: white;
+    }
+
+    .section-clinica__container {
+        flex-direction: column;
+    }
+
+    .section-clinica__title {
+        color: var(--color-text-title);
+        font-size: var(--font-size-base);
+    }
+
+    .section-clinica__text {
+        font-size: var(--font-size-sm);
+    }
+
+    .cards-content__espec {
+        height: 30vh;
+        width: 25vw;
+    }
+
+    .card__title {
+        font-size: var(--font-size-base);
+    }
+
+    .card__text {
+        font-size: var(--font-size-sm);
+    }
+
+    .cards-content__equipe {
+        height: auto;
+    }
+
+    .card__img {
+        height: auto;
+    }
+
+    .card-image__img {
+        width: 80vw;
+    }
+
+    .section-clinica__infra {
+        flex-direction: column;
+    }
+
+    .cards-infra {
+        margin-bottom: 5px;
+    }
+
+    .faq__title {
+        font-size: var(--font-size-base);
+    }
+
+    .faq__text {
+        font-size: var(--font-size-sm);
+    }
+
+
+    .direitos-autorais {
+        left: 0;
+        height: auto;
+    }
+
+    .direitos-autorais__text {
+        font-size: 1rem;
+    }
+
+}
+
+@media (min-width: 600px) {
+    * {
+        background-color: black;
+    }
+}
+
+@media (min-width: 1200px) {}

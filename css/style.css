@@ -23,7 +23,6 @@
     border-radius: var(--radius-sm);
     width: 100%;
     background-color: var(--color-secondary);
-    margin-bottom: 15px;
     margin-bottom: 35px;
 }
 
@@ -63,8 +62,9 @@
 }
 
 .section-clinica__container {
-    width: 1500px;
+    width: 100%;
     display: flex;
+    padding: 5%;
 }   
 
 .section-clinica__content {
@@ -91,7 +91,8 @@
 .section-clinica__text {
     font-size: var(--font-size-base);
     color: var(--color-text-body);
-    width: 90%;
+    width: 100%;
+    padding-right: 5%;
 }
 
 .card-image__img {
