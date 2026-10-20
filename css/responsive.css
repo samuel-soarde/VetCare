@@ -107,6 +107,9 @@
         font-size: var(--font-size-sm);
     }
 
+    .button {
+        bottom: 10%;
+    }
 
     .direitos-autorais {
         left: 0;
@@ -119,9 +122,64 @@
 
 }
 
-@media (min-width: 600px) {
-    * {
-        background-color: black;
+@media (min-width: 601px) {
+    .cards-content__espec {
+        height: auto;
+        width: 23vw;
+    }
+
+    .card__title {
+        font-size: var(--font-size-base);
+    }
+
+    .card__text {
+        font-size: var(--font-size-sm);
+    }
+
+    .cards-content__equipe {
+        height: auto;
+        width: 23vw;
+    }
+
+    .card__img {
+        height: auto;
+    }
+
+    .card-image__img {
+        width: 30vw;
+    }
+
+    .cards-infra {
+        background-color: var(--color-bg-card);
+        padding: 20px;
+        border-radius: var(--radius-md);
+        border-left: 5px solid var(--color-secondary);
+        width: 90%;
+        margin-top: 15px;
+        box-shadow: var(--shadow-card);
+        font-size: var(--font-size-sm);
+
+    }
+
+    .faq__title {
+        font-size: var(--font-size-base);
+    }
+
+    .faq__text {
+        font-size: var(--font-size-sm);
+    }
+
+    .rodape {
+        height: auto;
+    }
+
+    .button {
+        bottom: 10%;
+    }
+
+    .direitos-autorais {
+        height: auto;
+        width: 85%;
     }
 }
 
