@@ -79,8 +79,19 @@
         font-size: var(--font-size-sm);
     }
 
+    .cards-content-equipe {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 5px;
+    }
+
     .cards-content__equipe {
         height: auto;
+        width: 60%;
     }
 
     .card__img {
@@ -183,4 +194,8 @@
     }
 }
 
-@media (min-width: 1200px) {}
+@media (min-width: 768px) {
+    * {
+      background-color: black;  
+    }
+}
