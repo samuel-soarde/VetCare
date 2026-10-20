@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+@media (max-width: 767px) {
     body {
         margin-top: 15%;
         margin-left: 0;
@@ -133,7 +133,53 @@
 
 }
 
-@media (min-width: 601px) {
+@media (min-width: 768px) {
+    body {
+        margin-top: 15%;
+        margin-left: 0;
+    }
+
+    .menu {
+        padding: 0;
+        width: 100vw;
+        height: auto;
+        align-items: center;
+        top: 0;
+    }
+
+    .menu__title {
+        font-size: var(--font-size-base);
+    }
+
+    .menu__linha {
+        height: 3px;
+        border-radius: var(--radius-sm);
+        width: 100%;
+        background-color: var(--color-secondary);
+        margin-bottom: 2px;
+    }
+
+    .menu__nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 80%;
+        text-align: center;
+        gap: 0;
+    }
+
+    .menu__link {
+        font-size: var(--font-size-sm);
+        padding: 3px;
+        gap: 0px;
+        width: 150px;
+        height: 25px;
+        font-size: var(--font-size-sm);
+        margin: 3px;
+    }
+
     .cards-content__espec {
         height: auto;
         width: 23vw;
@@ -157,7 +203,14 @@
     }
 
     .card-image__img {
-        width: 30vw;
+        width: 50vw;
+    }
+
+    .section-clinica__infra {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
     }
 
     .cards-infra {
@@ -194,8 +247,54 @@
     }
 }
 
-@media (min-width: 768px) {
-    * {
-      background-color: black;  
+@media (min-width: 1200px) {
+    body {
+        margin-left: 15vw;
+        background-color: var(--color-sidebar-text)
+    }
+
+    .menu {
+        position: fixed;
+        left: 0;
+        width: 15vw;
+        height: 100vh;
+        background-color: var(--color-sidebar-bg);
+        display: flex;
+        flex-direction: column;
+        padding: 30px 15px;
+    }
+
+    .menu__title {
+        color: var(--color-sidebar-text);
+        font-size: var(--font-size-xl);
+    }
+
+    .menu__linha {
+        height: 3px;
+        border-radius: var(--radius-sm);
+        width: 100%;
+        background-color: var(--color-secondary);
+        margin-bottom: 35px;
+    }
+
+    .menu__nav {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: start;
+        align-items: start;
+        margin: 0px;
+    }
+
+    .menu__link {
+        color: var(--color-sidebar-text);
+        font-size: var(--font-size-base);
+        padding: 15px;
+        border-radius: var(--radius-md);
+        transition: var(--transition);
+        width: 13vw;
+        text-align: start;
     }
 }
+
+@media (min-width: 1440px) {
