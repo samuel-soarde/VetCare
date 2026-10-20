@@ -8,8 +8,10 @@
 
 html {
     scroll-behavior: smooth;
+    font-size: 62.5%;
 }
 
 body {
     margin-left: 15vw;
+    background-color: var(--color-sidebar-text)
 }

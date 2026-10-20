@@ -15,7 +15,7 @@
 
 .menu__title {
     color: var(--color-sidebar-text);
-    font-size: var(--font-size-base);
+    font-size: var(--font-size-xl);
 }
 
 .menu__linha {
@@ -35,7 +35,7 @@
 
 .menu__link {
     color: var(--color-sidebar-text);
-    font-size: var(--font-size-sm);
+    font-size: var(--font-size-base);
     padding: 15px;
     border-radius: 10px;
     transition: var(--transition);
@@ -51,10 +51,15 @@
 }
 
 .section-clinica {
-    height: 100vh;
+    height: 95vh;
+    margin-bottom: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.section-clinica#home {
+    background-color: white;
 }
 
 .section-clinica__container {
@@ -71,7 +76,7 @@
 
 .section-clinica__title {
     color: var(--color-text-title);
-    font-size: var(--font-size-lg);
+    font-size: var(--font-size-xl);
 }
 
 .linha {
@@ -84,6 +89,7 @@
 }
 
 .section-clinica__text {
+    font-size: var(--font-size-base);
     color: var(--color-text-body);
     width: 90%;
 }
@@ -91,10 +97,6 @@
 .card-image__img {
     max-width: 700px;
     border-radius: 15px;
-}
-
-.section-clinica#especialidades {
-    background-color: var(--color-sidebar-text);
 }
 
 .section-clinica__container--column {
@@ -108,8 +110,8 @@
 }
 
 .cards-content__espec {
-    height: 17vh;
-    background-color: white;
+    height: 13vh;
+    background-color: var(--color-bg-card);
     width: 23vw;
     border-radius: 15px;
     padding: 15px;
@@ -118,20 +120,17 @@
 
 .card__title {
     color: var(--color-secondary);
-    font-size: var(--font-size-sm);
+    font-size: var(--font-size-lg);
 }
 
 .card__text {
     color: var(--color-text-body);
-}
-
-.section-clinica#equipe {
-    background-color: var(--color-sidebar-text);
+    font-size: var(--font-size-sm);
 }
 
 .cards-content__equipe {
     height: 50vh;
-    background-color: white;
+    background-color: var(--color-bg-card);
     width: 25vw;
     border-radius: 15px;
     padding: 15px;
@@ -146,13 +145,10 @@
 
 .card__crmv {
     color: var(--color-secondary);
+    font-size: var(--font-size-sm);
 }
 
-.section-clinica#infraestrutura {
-    background-color: var(--color-sidebar-text);
-}
-
-.section-clinica#infraestrutura .section-clinica__container {
+.container__column{
     flex-direction: column;
 }
 
@@ -162,21 +158,14 @@
 }
 
 .cards-infra {
-    background-color: white;
+    background-color: var(--color-bg-card);
     padding: 20px;
     border-radius: 15px;
     border-left: 5px solid var(--color-secondary);
     width: 90%;
     margin-top: 15px;
     box-shadow: var(--shadow-card);
-}
-
-.section-clinica#faq {
-    background-color: var(--color-sidebar-text);
-}
-
-.section-clinica#faq .section-clinica__container {
-    flex-direction: column;
+    font-size: var(--font-size-base);
 }
 
 .faq {
@@ -193,4 +182,43 @@
 .faq__title {
     color: var(--color-sidebar-bg);
     font-weight: bolder;
+    font-size: var(--font-size-lg);
+}
+
+.faq__text {
+    font-size: var(--font-size-base);
+}
+
+.button {
+    padding: 15px;
+    border-radius: 25px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    right: 2%;
+    bottom: 8vh;
+    background-color: green;
+}
+
+.button__whatsapp {
+    font-size: var(--font-size-sm);
+    color: white;
+}
+
+.direitos-autorais {
+    display: flex;
+    gap: 47%;
+    position: fixed;
+    height: 5vh;
+    bottom: 0;
+    left: 15vw;
+    width: 100%;
+    background-color: var(--color-sidebar-bg);
+    padding: 15px;
+}
+
+.direitos-autorais__text {
+    font-size: var(--font-size-sm);
+    color: var(--color-sidebar-text);
 }
